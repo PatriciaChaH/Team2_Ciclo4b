@@ -124,6 +124,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               TextField(
                 controller: textOrigen,
+                readOnly: true,
                 decoration: InputDecoration(
                     labelText: "Moneda origen",
                     hintText: "0",
@@ -135,6 +136,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               TextField(
                 controller: textDestino,
+                readOnly: true,
                 decoration: InputDecoration(
                     labelText: "Moneda destino",
                     hintText: "0",
