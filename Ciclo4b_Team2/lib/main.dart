@@ -98,6 +98,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Padding(
           padding: EdgeInsets.all(20),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -146,6 +147,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       color: Colors.green,
                     )),
               ),
+              Padding(padding: EdgeInsets.all(10)),
               Expanded(
                 child: GridView.builder(
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
